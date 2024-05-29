@@ -20,6 +20,7 @@ import {
 } from "@mui/icons-material";
 import React, { Suspense, lazy, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { orange } from "../../constants/color";
 
 const SearchDialog = lazy(() => import("../specific/Search"));
 const NotificationDialog = lazy(() => import("../specific/Notifications"));
@@ -56,7 +57,7 @@ const Header = () => {
         <AppBar
           position="static"
           sx={{
-            bgcolor: "",
+            bgcolor: `${orange}`,
           }}
         >
           <Toolbar>

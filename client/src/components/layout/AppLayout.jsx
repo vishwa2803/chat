@@ -35,7 +35,6 @@ const AppLayout = () => (WrappedComponent) => {
             <ChatList 
             chats={sampleChats} 
             chatId={chatId}
-            onlineUsers={["1","2"]}
             handleDeleteChat={handleDeleteChat}
             />
           </Grid>
